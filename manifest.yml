@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: noderedapp-myname1015
+  host: noderedapp-myname1015
+  disk_quota: 1024M
+  services:
+  - noderedapp-myname1015-cloudantNoSQLDB
+  - Visual Recognition-n6
+  - Language Translator-p9
+  - Weather Company Data-q4
+  - Text to Speech-hw
